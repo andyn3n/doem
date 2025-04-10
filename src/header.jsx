@@ -9,8 +9,8 @@ export default function HeaderRow() {
                 <li className="dropdown">Solutions</li>
                 <li>Plans</li>
             </ul>
-            <object width="150" data="images\DOEM.svg" type="image/svg+xml">
-                <img src="images\DOEM.svg" />
+            <object width="150" data="doem/images/DOEM.svg" type="image/svg+xml">
+                <img src="doem/images/DOEM.svg" />
             </object>
             <div className="header-buttons">
                 <ul>
