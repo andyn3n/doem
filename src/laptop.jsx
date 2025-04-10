@@ -1,5 +1,5 @@
 import React from 'react';
-import './index.css';
+import './doem/index.css';
 
 export default function Laptop() { 
     var icon = "images/map-dot-notActive.svg"

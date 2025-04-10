@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
+import './doem/index.css'
 import Tabs from './tabs.jsx'
 import HeaderRow from './header.jsx'
 import Laptop from './laptop.jsx'
