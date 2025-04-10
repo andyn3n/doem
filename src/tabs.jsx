@@ -26,7 +26,7 @@ export default function Tabs() {
                             <div className="heading-icon-set">
                                 <h3>Audience Pro</h3>
                                 <svg className="package-image">
-                                    <image href="doem\images\Group 35.svg" width="40px" />
+                                    <image href=".\doem\images\Group 35.svg" width="40px" />
                                 </svg>
                             </div>
                             <p>This tool helps you attrack more audience and convert visitors into customers</p>
@@ -43,7 +43,7 @@ export default function Tabs() {
                             <div className="heading-icon-set">
                                 <h3>Share it!</h3>
                                 <svg className="package-image">
-                                    <image href="doem\images\Group 40.svg" width="40px" />
+                                    <image href=".\doem\images\Group 40.svg" width="40px" />
                                 </svg>
                             </div>
                             <p>Create content to most important social media platforms of yours.</p>
@@ -60,7 +60,7 @@ export default function Tabs() {
                             <div className="heading-icon-set">
                                 <h3>Power CMS</h3>
                                 <svg className="package-image">
-                                    <image href="doem\images\Group 39.svg" width="40px" />
+                                    <image href=".\doem\images\Group 39.svg" width="40px" />
                                 </svg>
                             </div>
                             <p>Create kick ass websites and blogs.</p>
