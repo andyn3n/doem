@@ -2,8 +2,8 @@ import React from 'react';
 import './doem/index.css';
 
 export default function Laptop() { 
-    var icon = "images/map-dot-notActive.svg"
-    var iconActive = "images/pin_active.svg"
+    var icon = "doem/images/map-dot-notActive.svg"
+    var iconActive = "/doemimages/pin_active.svg"
 
     const handleClick = (event) => {
         if(event.target.id === "visibility-button-1" || event.target.id === "visibility-button-active-1") {
@@ -47,20 +47,20 @@ export default function Laptop() {
             </button>
             <p className="popup-text-top-right" id="top-right"><b>Includes only the features you really need.</b> Nothing else.</p>
             <button className="image-button-2" onClick={handleClick} id="visibility-button-2">
-                <svg xmls="images\map-dot-notActive.svg">
-                    <image href="images\map-dot-notActive.svg" width="40" height="40" id="visibility-button-2"/>
+                <svg xmls="doem\images\map-dot-notActive.svg">
+                    <image href="doem\images\map-dot-notActive.svg" width="40" height="40" id="visibility-button-2"/>
                 </svg>
             </button>
             <p className="popup-text-bottom-left" id="bottom-left"><b>Customize your view.</b> Show the most important information on the frontpage.</p>
             <button className="image-button-3" onClick={handleClick} id="visibility-button-3">
-                <svg xmls="images\map-dot-notActive.svg">
-                    <image href="images\map-dot-notActive.svg" width="40" height="40" id="visibility-button-3"/>
+                <svg xmls="doem\images\map-dot-notActive.svg">
+                    <image href="doem\images\map-dot-notActive.svg" width="40" height="40" id="visibility-button-3"/>
                 </svg>
             </button>
             <p className="popup-text-bottom-right" id="bottom-right"><b>Get realtime analytics</b> The newest information always for you to see.</p>
-            <button className="image-button-4" onClick={handleClick} id="visibility-button-4">
-                <svg xmls="images\map-dot-notActive.svg">
-                    <image href="images\map-dot-notActive.svg" width="40" height="40" id="visibility-button-4"/>
+            <button className="doem\image-button-4" onClick={handleClick} id="visibility-button-4">
+                <svg xmls="doem\images\map-dot-notActive.svg">
+                    <image href="doem\images\map-dot-notActive.svg" width="40" height="40" id="visibility-button-4"/>
                 </svg>
             </button>
         </div>
