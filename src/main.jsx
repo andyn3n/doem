@@ -1,9 +1,8 @@
-import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import Tabs from '/doem/src/tabs.jsx'
-import HeaderRow from './header.jsx'
-import Laptop from './laptop.jsx'
+import Tabs from 'https://andyn3n.github.io/doem/src/tabs.jsx' 
+import HeaderRow from 'https://andyn3n.github.io/doem/header.jsx'
+import Laptop from 'https://andyn3n.github.io/doem/laptop.jsx'
 
 createRoot(document.getElementById('tabs')).render(
     <Tabs />
