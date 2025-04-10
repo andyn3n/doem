@@ -315,7 +315,7 @@ p.prefix-logo {
 .prefix-logo:before {
   display: inline-flex;
   content: '';
-  background-image: url('/doem/src/images/Doem.svg');
+  background-image: url('/doem/images/DOEM.svg');
   background-size: 28px;
   height: 8px;
   width: 28px;
