@@ -1,5 +1,5 @@
 import React from 'react';
-import './doem/index.css';
+import './index.css';
 
 export default function HeaderRow() { 
     return(
@@ -9,14 +9,17 @@ export default function HeaderRow() {
                 <li className="dropdown">Solutions</li>
                 <li>Plans</li>
             </ul>
-            <object width="150" data="doem/images/DOEM.svg" type="image/svg+xml">
-                <img src="doem/images/DOEM.svg" />
+            <object width="150" data="images/DOEM.svg" type="image/svg+xml">
+                <img src="images/DOEM.svg" />
             </object>
             <div className="header-buttons">
+                <a className="icon">
+                    <i className="fa fa-bars"></i>
+                </a>
                 <ul>
                     <li>Log in</li>
                 </ul>
-            <button className="button-primary">Start free</button>
+                <button className="button-primary">Start free</button>
             </div>
         </header>
     )
